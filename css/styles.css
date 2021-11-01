@@ -23,10 +23,11 @@ a {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
 }
-.logo .part1 {
+
+.logo .part-one {
   color: #2196f3;
 }
-.logo .part2 {
+.logo .part-two {
   color: #000000;
 }
 /* главная навигация */
@@ -35,6 +36,9 @@ a {
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
   color: var(--accent-color);
 }
 
@@ -50,6 +54,13 @@ a {
 /* Секция hero */
 .hero .title {
   color: var(--title-text-color);
+}
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 /* Наши особенности */
@@ -67,16 +78,15 @@ a {
 .team-list .title {
   color: var(--title-text-color);
 }
-
-.button {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-}
+/* СТИЛИ ПОРТФОЛИО */
 
 /* Кнопки фильтра Портфолио */
 .button-link {
   color: var(--title-text-color);
   background-color: var(--primary-button-color);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .button-link:hover,
