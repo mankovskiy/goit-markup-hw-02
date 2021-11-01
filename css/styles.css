@@ -9,6 +9,7 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
+  --primary-button-color: #f5f4fa;
 }
 
 .list {
@@ -39,10 +40,10 @@ a {
 
 /* Контакты в главном меню */
 
-.contact-nav .link {
+.contact-nav {
   color: var(--primary-text-color);
 }
-.contact-nav .link:hover {
+.contact-nav:hover {
   color: var(--accent-color);
 }
 
@@ -70,4 +71,20 @@ a {
 .button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+}
+
+/* Кнопки фильтра Портфолио */
+.button-link {
+  color: var(--title-text-color);
+  background-color: var(--primary-button-color);
+}
+
+.button-link:hover,
+.button-link:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+/* Основная секция портфолио */
+.portfolio-list .title {
+  color: var(--title-text-color);
 }
