@@ -11,6 +11,8 @@
   --primary-white-color: #ffffff;
   --primary-button-color: #f5f4fa;
   --logo-second-part: #000000;
+  --primary-bcg-color: #2f303a;
+  --section-team-color: #f5f4fa;
 }
 
 .list {
@@ -73,8 +75,11 @@ a {
 }
 
 /*------------------------------------------------------- Секция hero ----------------------------------------*/
+.hero {
+  background-color: var(--primary-bcg-color);
+}
 .hero .title {
-  color: var(--title-text-color);
+  color: var(--primary-white-color);
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -126,6 +131,9 @@ a {
 }
 
 /* ---------------------------------------------------Наша команда ------------------------------------------*/
+.section-team {
+  background-color: var(--section-team-color);
+}
 .section-team .title {
   color: var(--title-text-color);
   font-size: 36px;
@@ -151,17 +159,20 @@ a {
 }
 
 /* -------------------------------------------Адрес и контакты футера */
-address {
-  background-color: #757575;
+
+.footer {
+  background-color: var(--primary-bcg-color);
 }
+
 .adres {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--primary-white-color);
 }
+
 .contact-footer {
   font-style: normal;
   font-weight: 400;
