@@ -187,7 +187,7 @@ a {
 .button-link {
   color: var(--title-text-color);
   background-color: var(--primary-button-color);
-  font-family: Roboto;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
